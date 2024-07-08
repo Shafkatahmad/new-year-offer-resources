@@ -135,7 +135,7 @@ margin-right: 158px;
 /* event-details styles */
 .event-details {
   /* Vector */
-  border: 2px solid red;
+  /* border: 2px solid red; */
 /* position: absolute; */
 width: 1320px;
 height: 482px;
@@ -159,14 +159,14 @@ display: flex;
 .join-now {
   border: none;
   border-radius: 8px;
-  background: rgb(255, 0, 0);
+  background: transparent;
   padding: 16px 32px 16px 32px;
   margin: 0 auto;
   margin-top: 48px;
 }
 /* coming-soon styles */
 .coming-soon {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* Group 48 */
 /* position: absolute; */
 width: 1320px;
@@ -250,4 +250,70 @@ bottom: -3130px;
   margin-top: 50%;
   width: 100px;
 height: 100px;
+}
+/* holiday-section */
+.holiday-section-container {
+  /* border: 2px solid red; */
+  /* Group 82 */
+  /* position: absolute; */
+  width: 1320px;
+  height: 986.07px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  position: relative;
+}
+.what-is-functional{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 260px;
+  margin: 0 auto;
+}
+.function {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.holiday-title {
+  font-family: Merriweather;
+font-size: 45px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+}
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.photo-container  {
+  width: 1320 px;
+  height: 726 px;
+  /* border: 2px solid yellow; */
+  margin-top: 53px;
+}
+.red {
+  position: absolute;
+  top: 76.5%;
+}
+.gift-box {
+  position: relative;
+  z-index: 1;
+}
+.discount {
+  position: absolute;
+  top: 40%;
+  left: 73%;
 }
